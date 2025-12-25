@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GozonShop", "GozonShop\GozonShop.csproj", "{DFDA668D-BB01-43CD-AE02-AD9D6B393081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{439B14E0-EA62-4EF1-98D8-D5522E949C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{9EB0E027-D434-4102-8742-7D9D4AE4213E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentsService", "PaymentsService\PaymentsService.csproj", "{D3815584-6A1B-4E96-B279-DC3682EBB9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{58BC9649-7F2A-41D9-93DD-AF4804AED319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDA668D-BB01-43CD-AE02-AD9D6B393081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDA668D-BB01-43CD-AE02-AD9D6B393081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDA668D-BB01-43CD-AE02-AD9D6B393081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDA668D-BB01-43CD-AE02-AD9D6B393081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439B14E0-EA62-4EF1-98D8-D5522E949C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439B14E0-EA62-4EF1-98D8-D5522E949C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439B14E0-EA62-4EF1-98D8-D5522E949C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439B14E0-EA62-4EF1-98D8-D5522E949C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB0E027-D434-4102-8742-7D9D4AE4213E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB0E027-D434-4102-8742-7D9D4AE4213E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB0E027-D434-4102-8742-7D9D4AE4213E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB0E027-D434-4102-8742-7D9D4AE4213E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3815584-6A1B-4E96-B279-DC3682EBB9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3815584-6A1B-4E96-B279-DC3682EBB9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3815584-6A1B-4E96-B279-DC3682EBB9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3815584-6A1B-4E96-B279-DC3682EBB9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BC9649-7F2A-41D9-93DD-AF4804AED319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BC9649-7F2A-41D9-93DD-AF4804AED319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BC9649-7F2A-41D9-93DD-AF4804AED319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BC9649-7F2A-41D9-93DD-AF4804AED319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43E1EEE-0B84-4278-87F8-21D22D9E81B6}
+	EndGlobalSection
+EndGlobal
